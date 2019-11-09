@@ -1,0 +1,90 @@
+html {
+  font-family: 'Crimson Text', serif;
+  font-size: 18;
+background-color: #ffc30b;
+
+}
+.container{
+position: absolute;
+left: 0;
+top: 0;
+width: 120%;
+height: 120%;
+}
+
+.hero{
+  height: 180%;
+  background-position: center;
+  background-image: url(images/landingpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 3em;
+}
+
+article {
+  -webkit-column-width: 200;
+  -moz-column-width: 200;
+  column-width: 200;
+  column-count: 2;
+  column-gap: 4em;
+}
+.second{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.hero-text{
+  color: white;
+}
+
+.hero-text button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #cc9966;
+}
+.button2 button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #cc9966;
+  }
+
+.gallery{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.learn{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.story{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.links{
+  padding: 30px;
+}
